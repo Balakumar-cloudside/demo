@@ -4,7 +4,7 @@ with
 
 inter_sales as(
  SELECT
-       AVG(S.avg_unit_price) as avg_unit_price,
+       AVG(S.unit_price) as avg_unit_price,
        {{ dbt_utils.star(from=ref('stg_sales'), except=["order_id","avg_unit_price"]) }},
        {{ dbt_utils.star(from=ref('stg_sales_new'), except=["order_id"]) }}
 	
