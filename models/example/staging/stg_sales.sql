@@ -12,4 +12,4 @@ SELECT
 FROM sales
 )
 
-SELECT * FROM n;
+SELECT * FROM n
