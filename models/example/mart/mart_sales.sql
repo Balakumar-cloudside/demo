@@ -1,5 +1,5 @@
 WITH
-   {{config(materialized='view')}}
+   {{config(materialized='table')}}
 
 sale as(
 SELECT * FROM {{ref('inter_sales')}} )
