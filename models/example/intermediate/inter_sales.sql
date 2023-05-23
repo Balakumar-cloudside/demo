@@ -1,6 +1,6 @@
 with
 
-{{config(materialized='view')}}
+{{config(materialized='ephemeral')}}
 
 inter_sales as(
  SELECT
