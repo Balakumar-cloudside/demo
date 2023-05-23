@@ -1,6 +1,6 @@
 WITH
 sales_new AS (
-SELECT * FROM `cloudside-academy.demo.sales`),
+SELECT * FROM `cloudside-academy.demo.sales_new`),
 
 s AS ( 
 SELECT 
