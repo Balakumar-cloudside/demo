@@ -4,7 +4,7 @@ SELECT * FROM `cloudside-academy.demo.sales`),
 
 n AS ( 
 SELECT 
-     unit_price AS avg_unit_price,
+     unit_price,
      item_type,
      sales_channel,
      total_cost,
