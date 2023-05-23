@@ -4,4 +4,4 @@ WITH
 sale as(
 SELECT * FROM {{ref('inter_sales')}} )
 
-SELECT * FROM sale;
+SELECT * FROM sale
