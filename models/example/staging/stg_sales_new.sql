@@ -10,5 +10,4 @@ SELECT
 FROM sales_new
 )
 
-SELECT * FROM s;
-
+SELECT * FROM s
